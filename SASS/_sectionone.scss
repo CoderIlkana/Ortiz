@@ -1,0 +1,92 @@
+.div1{
+    width: 100%;
+    height: 650px;
+    background-image: url('../IMGS/hero1.webp');
+    background-size: cover;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+
+    .container{
+display: flex;
+align-items: center;
+    
+    .box3{
+        width: 95%;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 60px 25px 60px 45px;
+        overflow: hidden;
+
+
+
+        h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 600px;
+            position: relative;
+            animation-name: example;
+            animation-duration: 3s;
+            animation-delay: -2s;
+          }
+          
+          @keyframes example {
+            
+            75%  { left:0px; top:200px;}
+            100% { left:0px; top:0px;}
+          }
+        }
+        h4{
+            color: white;
+            position: relative;
+            animation-name: example;
+            animation-duration: 3.5s;
+            animation-delay:-2s;
+          }
+          
+          @keyframes example {
+            
+            75%  { left:0px; top:200px;}
+            100% { left:0px; top:0px;}
+          }
+        p{
+            color: white;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay:-2s;
+          }
+          
+          @keyframes example {
+            
+            75%  { left:0px; top:200px;}
+            100% { left:0px; top:0px;}
+          }
+        h3{
+            color: white;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4.5s;
+            animation-delay:-2s;
+          }
+          
+          @keyframes example {
+            
+            75%  { left:0px; top:200px;}
+            100% { left:0px; top:0px;}
+          }
+    }
+}
+
+
+@media screen and (max-width: 1300px){
+
+  .div1{
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  }
+
+  .box3{
+    padding: 60px 25px 60px 45px;
+  }
+}

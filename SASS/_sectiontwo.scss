@@ -1,0 +1,85 @@
+.sectiontwo {
+    width: 100%;
+
+    .container {
+        padding: 100px 0px;
+
+        .row {
+            .box4 {
+                width: 100%;
+                height: 400px;
+                display: flex;
+                position: relative;
+
+                .box6 {
+                    width: 52%;
+                    height: 320px;
+                    background-color: #EFEFF0;
+                    position: absolute;
+                    left: 23%;
+                    top: 16%;
+                    display: flex;
+                    align-items: flex-end;
+
+                    h1 {
+                        font-size: 20px;
+                        // margin-left: 30px;
+
+                        &:hover {
+
+                            .box-img {
+
+                                background-image: url('../IMGS/about2.jpg');
+                                background-size: cover;
+                            }
+                        }
+                    }
+
+
+                }
+
+                .box-img {
+                    width: 56%;
+                    height: 345px;
+                    position: absolute;
+                    left: 31%;
+                    box-shadow: 3px 3px 3px 3px rgb(151, 150, 150);
+
+                    background-image: url('../IMGS/about1.jpg');
+                    background-size: cover;
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+            .box5 {
+                width: 100%;
+                p{
+                    font-size: 20px;
+             margin-top: 30px;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+.box-img{
+    width: 100%;
+}
+
+.box6{
+    width: 100%;
+}
+.box5{
+    padding: 4px 35px;
+}
+}

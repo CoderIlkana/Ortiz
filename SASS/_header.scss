@@ -1,0 +1,84 @@
+.header{
+    width: 100%;
+background-color: #05344A;
+    .container{
+        .row{
+            .box1{
+                width: 100%;
+                padding:  26px 24px 24px 0px;
+
+                // background-color: #93a4ac;
+                display: flex;
+                align-items: center;
+                h1{
+                    color: white;
+                    font-weight: 600px;
+                    font-size: 17px;
+                }
+            }
+            .box2{
+                width: 100%;
+                padding: 15px;
+                // background-color: #688694;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                padding-left: 140px;
+
+                button{
+                    width: 162px;
+                    height:46px;
+                    font-size: 17px;
+                    color: white;
+                    background-color: #25A5DE;
+                    border-radius: 25px;
+                    font-weight: 700px;
+                    border: 3px solid #034474;
+                    transition: 1s;
+
+                    &:hover{
+                        background-color: black;
+                        transition: 1s;
+                    }
+
+                }
+                .registr{
+                    a{
+                    color: #16A1DE;
+                    font-size: 17px;
+                    }
+                }
+                .login{
+                    a{
+                    font-size: 17px;
+                    color: white;
+
+                    }
+                }
+            }
+ 
+        }
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .row{
+        flex-direction: column;
+        
+        .box1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0% !important;
+        }
+    }
+
+}

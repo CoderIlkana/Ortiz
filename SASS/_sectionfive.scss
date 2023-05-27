@@ -1,0 +1,68 @@
+.sectionfive{
+    width: 100%;
+    padding: 10px;
+    .container{
+        .row{
+display: flex;
+justify-content: space-between;
+
+
+.div-inline{
+    width: 100%;
+    background-color: #25A5DE;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    position: absolute;
+    z-index: 1;
+
+
+.card-title{
+
+    color: white;
+    font-weight: 600px;
+    transition: 1s;
+}
+
+&:hover{
+    color: rgb(26, 26, 240);
+    transition: 1s;
+
+}
+}
+
+.card-body{
+    padding: 0px;
+}
+
+.card-text{
+    padding: 72px 11px 4px 14px;
+    font-size: 15px;
+}
+
+.card{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.card{
+    padding: 0%;
+
+    &:hover{
+        .card-img-top{
+            transition: 1s;
+            transform: scale(1.2);
+            overflow-x: hidden;
+        }
+    }
+}
+
+.h3-text{
+    font-size: 23px;
+    font-weight: 600px;
+    display: flex;
+    justify-content: center;
+    
+}
+        }
+    }
+}

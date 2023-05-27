@@ -1,0 +1,29 @@
+.sectiontheree{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box-write{
+        width: 100%;
+        // height: 100px;
+        // background-color: aquamarine;
+        padding: 25px;
+        
+
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 47px;
+
+        }
+        pre{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+            padding-top: 10px;
+        }
+    }
+}
